@@ -47,7 +47,7 @@
 		
 	<div class="fh5co-loader"></div>
 	
-	<div id="page">
+	<div id="page" id="">
 	
 
 	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
@@ -63,10 +63,13 @@
 							<h2 class="h1" style="font-size: 20px; font-weight: bold;margin-bottom: 0px; "> ALUMNI FAKULTAS HUKUM</h2>
 							<h2 class="h1" style="font-size: 20px; font-weight: bold">UNIVERSITAS CENDERAWASIH</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<audio controls autoplay loop >
-								<source src="audio/y2mate.com - Hymne Universitas Cenderawasih Saxophone Instrument.mp3" type="audio/mpeg">
+						
+							
+							<audio controls="true" autoplay="true" id="player" >
+								<source src="audio/y2mate.com - Hymne Universitas Cenderawasih Saxophone Instrument.mp3" type="audio/mp3">
 								Browser tidak mendukung audio !
 							</audio>
+
 						</div>
 					</div>
 				</div>
@@ -151,33 +154,8 @@
 				</div>
 			</div>
  
- <!-- Modal -->
- <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-	 <div class="modal-dialog" role="document">
-		 <div class="modal-content">
-				 <div class="modal-header">
-						 <h5 class="modal-title">Susunan Acara</h5>
-							 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								 <span aria-hidden="true">&times;</span>
-							 </button>
-					 </div>
-			 <div class="modal-body">
-				 <div class="container-fluid">
-					<img src="images/img_bg_3.jpg"style="width: 100%;" alt="" srcset="">
-				 </div>
-			 </div>
-			
-		 </div>
-	 </div>
- </div>
- 
- <script>
-	 $('#exampleModal').on('show.bs.modal', event => {
-		 var button = $(event.relatedTarget);
-		 var modal = $(this);
-		 // Use above variables to manipulate the DOM
-		 
-	 });
+
+
  </script>
 			<div class="row" >
 				<div class="col-md-12 animate-box" style="margin: auto;" >
@@ -255,7 +233,7 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date(new Date().getTime() + 16 * 120 * 120 * 2000);
+    var d = new Date(new Date().getTime() + 13 * 120 * 120 * 2000);
 
     // default example
     simplyCountdown('.simply-countdown-one', {
